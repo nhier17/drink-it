@@ -2,16 +2,19 @@
 
 import gsap from "gsap";
 import { SplitText, ScrollTrigger } from "gsap/all";
+import Hero from "@/components/features/Hero";
+import Cocktails from "@/components/features/Cocktails";
+import About from "@/components/features/About";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
-import Hero from "@/components/features/Hero";
 
 export default function Home() {
   return (
     <section>
       <Hero />
-      <div className="h-dvh bg-orange-50" />
+      <Cocktails />
+      <About />
     </section>
   );
 }
