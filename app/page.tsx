@@ -13,13 +13,13 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 export default function Home() {
   return (
-    <section>
+    <main className="">
       <Hero />
       <Cocktails />
       <About />
       <Art />
       <Menu />
       <Contact />
-    </section>
+    </main>
   );
 }
