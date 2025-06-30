@@ -27,8 +27,8 @@ const Cocktails = () => {
 
     return (
         <section id="cocktails" className="noisy">
-            <Image src="/images/cocktail-left-leaf.png" alt="Cocktails" width={500} height={500} id="c-left-leaf" />
-            <Image src="/images/cocktail-right-leaf.png" alt="Cocktails" width={500} height={500} id="c-right-leaf" />
+            <Image src="/images/cocktail-left-leaf.png" alt="Cocktails" width={300} height={300} id="c-left-leaf" />
+            <Image src="/images/cocktail-right-leaf.png" alt="Cocktails" width={300} height={300} id="c-right-leaf" />
 
             <div className="list">
                 <div className="popular">

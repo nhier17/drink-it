@@ -19,57 +19,58 @@ const navLinks = [
    
    const cocktailLists = [
     {
-       name: "Chapel Hill Shiraz",
-       country: "AU",
-       detail: "Battle",
-       price: "$10",
+       name: "Dawa",
+       country: "KE",
+       detail: "Vodka, honey, lime",
+       price: "KSh 750",
     },
     {
-       name: "Caten Malbee",
+       name: "Margarita",
        country: "AU",
-       detail: "Battle",
-       price: "$49",
+       detail: "Tequila, lime, orange",
+       price: "KSh 950",
     },
     {
-       name: "Rhino Pale Ale",
+       name: "Bloody Mary",
        country: "CA",
-       detail: "750 ml",
-       price: "$20",
+       detail: "Vodka, tomato, lime",
+       price: "KSh 1,200",
     },
     {
-       name: "Irish Guinness",
+       name: "Gin & Tonic",
        country: "IE",
-       detail: "600 ml",
-       price: "$29",
+       detail: "Gin, tonic, lime",
+       price: "KSh 650",
     },
    ];
    
    const mockTailLists = [
     {
-       name: "Tropical Bloom",
-       country: "US",
-       detail: "Battle",
-       price: "$10",
+      name: "Hibiscus Zing",
+      country: "KE",
+      detail: "Roselle (hibiscus), lemon, soda",
+      price: "KSh 400",
     },
     {
-       name: "Passionfruit Mint",
-       country: "US",
-       detail: "Battle",
-       price: "$49",
+      name: "Tamarind Cooler",
+      country: "KE",
+      detail: "Tamarind juice, lime, mint",
+      price: "KSh 450",
     },
     {
-       name: "Citrus Glow",
-       country: "CA",
-       detail: "750 ml",
-       price: "$20",
+      name: "Mango Mint Mojito",
+      country: "KE",
+      detail: "Mango, lime, mint, soda",
+      price: "KSh 500",
     },
     {
-       name: "Lavender Fizz",
-       country: "IE",
-       detail: "600 ml",
-       price: "$29",
+      name: "Coconut Chill",
+      country: "KE",
+      detail: "Coconut milk, pineapple, ice",
+      price: "KSh 480",
     },
-   ];
+  ];
+  
    
    const profileLists = [
     {
