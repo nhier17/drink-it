@@ -16,6 +16,9 @@ const monaSans = Mona_Sans({
 export const metadata: Metadata = {
   title: "Drink It",
   description: "How about a cold mojito?",
+  icons: {
+    icon: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
