@@ -3,6 +3,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import {ScrollTrigger, SplitText } from "gsap/all";
+import Link from "next/link";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 
@@ -110,7 +111,7 @@ const Hero = () => {
 				creative flair, and timeless recipes — designed to delight your
 				senses.
 			 </p>
-			 <a href="#cocktails">View cocktails</a>
+			 <Link href="#cocktails" className="link-hero">View cocktails</Link>
 			</div>
 		 </div>
 		</div>
