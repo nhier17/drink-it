@@ -20,13 +20,13 @@ navTween.fromTo('nav', { backgroundColor: 'transparent' }, {
     backgroundFilter: 'blur(10px)',
     duration: 1,
     ease: 'power1.inOut'
-})
+});
   }, []);
 
   return (
     <nav>
         <div>
-            <Link href="/" className="flex items-center gap-2">
+            <Link href="/" className="flex items-center gap-2 link">
             <Image src="/images/logo.png" alt="Logo" width={50} height={50} />
             <p>Drink It</p>
             </Link>

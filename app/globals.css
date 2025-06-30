@@ -183,7 +183,7 @@ body {
           @apply font-montserrat text-3xl -mb-2;
       }
 
-      a {
+      .link {
           @apply cursor-pointer text-nowrap md:text-base text-sm;
       }
 
@@ -232,7 +232,7 @@ body {
                       @apply text-left;
                   }
 
-                  a {
+                  .link-hero {
                       @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow;
                   }
               }
